@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+.navbar-container {
+    /* background-color: #023020; */
+    background-color: teal;
+    box-shadow: 0px 0px 0px 1px #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+.logo-heading {
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .logo-heading {
+        font-size: 14px;
+    }
+}
+
+.icon {
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.lines {
+    width: 25px;
+}
+
+.logo-heading:hover {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.horizontal-line {
+    margin: 0px;
+    border-color: white;
+    height: 2px;
+}
+
+#home {
+    color: #fff;
+}
+
+#home:hover {
+    text-decoration: underline;
+    color: #f1f1f1;
+    font-size: 16px;
+}
+
+#about {
+    color: #fff;
+}
+
+#about:hover {
+    text-decoration: underline;
+    color: #f1f1f1;
+    font-size: 16px;
+}
+
+
+#treatments {
+    color: #fff;
+}
+
+#treatments:hover {
+    text-decoration: underline;
+    color: #f1f1f1;
+    font-size: 16px;
+}
+
+
+#testimonials {
+    color: #fff;
+}
+
+#testimonials:hover {
+    text-decoration: underline;
+    color: #f1f1f1;
+    font-size: 16px;
+}
+
+
+#doctor {
+    color: #fff;
+}
+
+#doctor:hover {
+    text-decoration: underline;
+    color: #f1f1f1;
+    font-size: 16px;
+}
+
+#contact {
+    color: #fff;
+}
+
+#contact:hover {
+    text-decoration: underline;
+    color: #f1f1f1;
+    font-size: 16px;
+}
+
+@media screen and (max-width : 768px) {
+    .nav-links {
+        margin-top: 30px;
+    }
+}
+
+.section-home-page-container {
+    /* background-color: #fff; */
+    background-image: url("https://res.cloudinary.com/do0tdq6d5/image/upload/v1687602577/background-image_ropacu.jpg");
+    padding-top: 50px;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hospital-heading {
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+}
+
+@media screen and (max-width:768px){
+    .hospital-heading{
+        font-size: 14px;
+    }
+}
+
+.section-treatments-container {
+    background-color: #FFFBF5;
+}
+
+.treatments-heading {
+    color: #183b56;
+    font-size: 28px;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.treatment-card {
+    border: 2px solid #e5eaf4;
+    min-height: 200px;
+    border-radius: 4px;
+}
+
+.treatments-caption {
+    color: #5a7184;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+
+.sirodhara-image {
+    /*    border-bottom-right-radius: 8px;
+ border-bottom-left-radius: 8px; */
+    /* border-radius: 8px; */
+}
+
+.sirodhara-name {
+    color: teal;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.rejuvenation-name {
+    color: teal;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section-special-treatments-container {
+    background-color: #f9fbfe;
+}
+
+.special-treatment-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+    /* border: 1px solid; */
+    /* height: 300px; */
+    /* overflow-y: scroll; */
+    border: 2px solid #e5eaf4;
+}
+
+@media screen and (min-width:768px) {
+    .special-treatment-card:hover {
+        transform: scale(1.0);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+}
+
+
+.abhyanganam-service-image {
+    border-radius: 10px;
+    min-height: 90px;
+}
+
+.sirodhara-service-image {
+    border-radius: 10px;
+    min-height: 90px;
+}
+
+.sirodhara-service-name {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.sirodhara-details {
+    margin-top: 0px;
+    color: teal;
+}
+
+
+.pizhicil-service-image {
+    height: 200px;
+}
+
+.new-card {
+    background-color: #50C878;
+}
+
+.consultation-body-container {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-color: #ECF2FF;
+}
+
+.consultation-heading-container {
+    background-color: #1B9C85;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+
+.consultation-hospital-heading {
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.consultation-description {
+    color: #393646;
+    font-family: "Mukta";
+    font-size: 20px;
+}
+
+.treatment-heading {
+    color: #070A52;
+    font-weight: 700;
+    /* background-color: #0B2447; */
+    /* padding-left: 5px; */
+    /* margin-right: 10px; */
+    border-radius: 8px;
+    text-decoration: underline;
+
+}
+
+.hospital-name {
+    color: #070A52;
+    font-weight: 700;
+    /* background-color: #0B2447; */
+    /* padding-left: 5px; */
+    /* margin-right: 10px; */
+    border-radius: 8px;
+}
+
+@media screen and (max-width : 768px) {
+    .consultation-description {
+        font-size: 16px;
+    }
+
+    .treatment-heading {
+        font-size: 18px;
+    }
+
+    .hospital-name {
+        font-size: 18px;
+    }
+
+    .treatment-heading {
+        text-decoration: none;
+    }
+
+    .consultation-hospital-heading {
+        padding-top: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .consultation-description {
+        font-weight: 500;
+    }
+}
+
+.consultation-summary {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.consultation-summary-container {
+    background-color: #1C6758;
+}
+
+/* Treatment card styles */
+.treatment-card {
+    /* background-image: url("https://img.freepik.com/free-photo/view-herbal-therapy-products_23-2149339724.jpg?w=826&t=st=1687598975~exp=1687599575~hmac=c8133ee20008d705b9ae16e41c4378aafba15be70cb9af197459b728076ba06e"); */
+    background-size: cover;
+    background-color: #006D5B;
+    /* padding: 20px; */
+    /* border-radius: 8px; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    border: 2px solid #DBE2EF;
+    margin: 10px;
+}
+
+.treatment-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    /* color: #323f4b; */
+    margin-bottom: 10px;
+    font-family: fira code;
+    /* text-align: center; */
+}
+
+.image-container {
+    background-image: url("https://img.freepik.com/free-vector/beautiful-decorative-green-leaves-background_1035-23469.jpg?w=826&t=st=1687599456~exp=1687600056~hmac=9f9c71acd4d9658c74382330efe5c006038ef4ec53b3d8b2b7b5e3b485ff41af");
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-logo {
+    width: 150px;
+    height: 150px;
+    /* border-radius: 50%; */
+    object-fit: cover;
+}
+
+.treatment-details p {
+    font-size: 15px;
+    /* color: #444; */
+    color: #ffffff;
+    /* line-height: 1.6; */
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Mukta;
+}
+
+a {
+    /* color: #1378a8; */
+    text-decoration: none;
+    /* font-family: Mukta; */
+    color: darkgreen;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.section-treatment-cards-container {
+    background-color: #F7F7F7;
+    /* background-image: url("https://img.freepik.com/free-vector/detailed-green-leaves-wave-background_1302-5734.jpg?w=740&t=st=1687598216~exp=1687598816~hmac=fd6584b810d1a2f2abe40eaffb4f5ebd8006a719577c58713a9adf9aff456863"); */
+    background-size: cover;
+}
+
+.title {
+    color: darkgreen;
+    font-size: 28px;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.read-more-button {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    width: 120px;
+    height: 36px;
+    border-width: 0px;
+    border-radius: 8px;
+}

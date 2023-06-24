@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.navbar-container {
+    /* background-color: #023020; */
+    background-color: teal;
+    box-shadow: 0px 0px 0px 1px #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+.logo-heading {
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .logo-heading {
+        font-size: 14px;
+    }
+}
+
+.icon {
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.lines {
+    width: 25px;
+}
+
+.logo-heading:hover {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.horizontal-line {
+    margin: 0px;
+    border-color: white;
+    height: 2px;
+}
+
+#home {
+    color: #fff;
+}
+
+#home:hover {
+    text-decoration: underline;
+    color: #f1f1f1;
+    font-size: 16px;
+}
+
+#about {
+    color: #fff;
+}
+
+#about:hover {
+    text-decoration: underline;
+    color: #f1f1f1;
+    font-size: 16px;
+}
+
+
+#treatments {
+    color: #fff;
+}
+
+#treatments:hover {
+    text-decoration: underline;
+    color: #f1f1f1;
+    font-size: 16px;
+}
+
+
+#testimonials {
+    color: #fff;
+}
+
+#testimonials:hover {
+    text-decoration: underline;
+    color: #f1f1f1;
+    font-size: 16px;
+}
+
+
+#doctor {
+    color: #fff;
+}
+
+#doctor:hover {
+    text-decoration: underline;
+    color: #f1f1f1;
+    font-size: 16px;
+}
+
+#contact {
+    color: #fff;
+}
+
+#contact:hover {
+    text-decoration: underline;
+    color: #f1f1f1;
+    font-size: 16px;
+}
+
+@media screen and (max-width : 768px) {
+    .nav-links {
+        margin-top: 30px;
+    }
+}
+
+.section-treatments-container{
+    padding-top: 90px;
+    /* text-align: center; */
+    /* border-bottom: 3px solid darkgreen; */
+    font-family: 'Mukta', sans-serif;
+    background-color: #fff;
+}
+
+.treatments-heading-container{
+    border-bottom: 3px solid darkgreen;
+    padding-top: 80px;
+    text-align: center;
+}
+.treatments-heading{
+    color: darkgreen;
+}
+.snehapanam-image{
+    border-radius: 10px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.line-break{
+    /* border: 1px solid darkgreen; */
+    /* height: 1px; */
+    border: none; /* Remove default border */
+  height: 2px; /* Set the height of the line */
+  background-color: darkgreen; /* Set the color of the line */
+  margin: 20px 0;
+}
+
+  
